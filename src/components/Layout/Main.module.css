@@ -1,0 +1,31 @@
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+ul{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+
+}
+.items{
+    width: 80%;
+    margin: 2px auto;
+    display: flex;
+    border-radius: 10px;
+    background: var(--back-color);
+    justify-content: space-between;
+    padding: 1%; /* Добавляет небольшое пространство между элементами списка */
+
+}
+.item, .items div {
+    flex: 1; /* Распределяет пространство равномерно между элементами */
+    text-align: center; /* Центрирует текст в каждом блоке */
+    display: flex;
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+    align-items: center; /* Центрирует содержимое по вертикали */
+}
+.items div img {
+    justify-self: center; /* Центрирует изображение внутри своего div */
+}

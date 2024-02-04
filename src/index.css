@@ -1,0 +1,27 @@
+:root{
+    --back-color:rgba(32, 32, 114, 0.63);
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: white;
+    display: block;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+header p , h1{
+    text-align: center;
+}
+
+
+
