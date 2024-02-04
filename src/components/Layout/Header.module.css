@@ -1,0 +1,21 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+header p , h1{
+    text-align: center;
+}
+.temp{
+    font-weight: 400;
+    font-size: 40px;
+}
+.address{
+    font-size: 20px;
+}
+.description{
+    font-size: 14px;
+}

@@ -1,0 +1,18 @@
+.block{
+    width: 100%;
+}
+.block_items{
+    width:80%;
+    background: var(--back-color);
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1%;
+}
+.block_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
